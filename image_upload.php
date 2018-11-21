@@ -1,10 +1,6 @@
-
-
-
-
 <!DOCTYPE html>
 <head>
-	<title> Details </title>
+	<title> Bill Image </title>
 	<link rel="icon" type="image/x-icon" href="icon.png">
 	<meta charset='utf-8'>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -122,9 +118,6 @@ footer{
 </div>
 </div>
 </div>
-
-
-
 <script>
   console.log(<?php
 $target_dir = "uploads/";
