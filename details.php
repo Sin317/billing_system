@@ -121,6 +121,7 @@ footer{
 <body>
 <div class="topnav" id="myTopnav">
 <a href="login_success.php">Home</a>
+<a href="image_upload.php">Bill Image</a>
 <a href="summary.php">Summary</a>
 <a href="calculator.html" target="_blank"> Calculator </a>
   <a href="#home" class="active">Upload Bill Details</a>
