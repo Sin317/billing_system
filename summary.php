@@ -77,7 +77,7 @@ if(!isset($_SESSION['login']))
         <li><a href='#'>Tutorial</a></li>
         <li><a href='calculator.html'>Calculator</a></li>
         <li><a href='details.php'>Upload Bill Details</a></li>
-        <li><a href='stat.php'>Statistics</a></li>
+        <li><a href='stats.php'>Statistics</a></li>
         <li class='active'><a href='#'>Summary</a></li>
       </ul>
       <ul class='nav navbar-nav navbar-right'>

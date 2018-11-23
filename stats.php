@@ -123,7 +123,7 @@ if ($result->num_rows > 0) {
 
     }
     $rem = $budget-$sum;
-    echo "You can spend Rs  $rem  in the coming days<br> ";
+    echo "<br>You can spend Rs  $rem  in the coming days<br> ";
     
     
 } else {
@@ -137,7 +137,7 @@ if($result1->num_rows >0){
         $category[$row['Category']]=($spent[$i++]/$sum)*100;
     }
     foreach ($category as $key => $value) {
-        echo "You spent $value% in $key domain<br>";
+        echo "<br>You spent $value% in $key domain<br>";
     }
 }
 $conn->close();

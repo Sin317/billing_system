@@ -4,8 +4,8 @@
 	<title> Bill Image </title>
 	<link rel="icon" type="image/x-icon" href="icon.png">
 	<meta charset='utf-8'>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!--link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -99,7 +99,7 @@ footer{
 <a href="image_upload.php" class="active">Bill Image</a>
 <a href="summary.php">Summary</a>
 <a href="calculator.html" target="_blank"> Calculator </a>
-  <a href="#home">Upload Bill Details</a>
+  <a href="details.php">Upload Bill Details</a>
 <a href="logout.php?logout=true"> Logout </a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
     <i class="fa fa-bars"></i>

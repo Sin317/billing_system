@@ -25,6 +25,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 <style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
  footer {
       background-color: #555;
       color: white;
@@ -64,6 +115,14 @@ body{ background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038
 </head>
 <body>
 <div id="signform">
+    <div class="topnav" id="myTopnav">
+<a href="login_success.php">Home</a>
+<a href="#"> Tutorial </a>
+<a href="calculator.html" target="_blank"> Calculator </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <div class="container">
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
